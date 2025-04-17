@@ -27,24 +27,36 @@
         "hash": "5443105041930014821"
       },
       {
-        "file": "package.json",
-        "hash": "16965617924221339175"
+        "file": ".gitignore",
+        "hash": "3411841762823938676"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "5407418692668764289"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": ".vscode/extensions.json",
         "hash": "16884713733442577066"
       },
       {
+        "file": "README.md",
+        "hash": "10675569854656463745"
+      },
+      {
+        "file": "azure-pipelines.yml",
+        "hash": "14616863122685639560"
+      },
+      {
         "file": "docker/docker-compose.yml",
         "hash": "6176430718026454327"
       },
       {
-        "file": ".gitignore",
-        "hash": "13328126820023346207"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
+        "file": "eslint.config.mjs",
+        "hash": "3462096019013144053"
       },
       {
         "file": "nx.json",
@@ -55,24 +67,12 @@
         "hash": "14231648926674359966"
       },
       {
-        "file": ".prettierignore",
-        "hash": "5407418692668764289"
+        "file": "package.json",
+        "hash": "16965617924221339175"
       },
       {
-        "file": "eslint.config.mjs",
-        "hash": "3462096019013144053"
-      },
-      {
-        "file": "azure-pipelines.yml",
-        "hash": "14616863122685639560"
-      },
-      {
-        "file": "README.md",
-        "hash": "10675569854656463745"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
       }
     ],
     "projectFileMap": {
@@ -129,267 +129,6 @@
         {
           "file": "apps/notification/webpack.config.js",
           "hash": "14777502935906254993",
-          "deps": [
-            "npm:@nx/webpack"
-          ]
-        }
-      ],
-      "auth": [
-        {
-          "file": "apps/auth/eslint.config.mjs",
-          "hash": "2624537849564014525"
-        },
-        {
-          "file": "apps/auth/project.json",
-          "hash": "11802258599980695883"
-        },
-        {
-          "file": "apps/auth/src/app/app.controller.ts",
-          "hash": "15276891910009544695",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/auth/src/app/app.module.ts",
-          "hash": "11673476679848632172",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/auth/src/app/app.service.ts",
-          "hash": "9967902337593410053",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/auth/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/auth/src/main.ts",
-          "hash": "150780270862474464",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/core"
-          ]
-        },
-        {
-          "file": "apps/auth/tsconfig.app.json",
-          "hash": "5519104792858008127"
-        },
-        {
-          "file": "apps/auth/tsconfig.json",
-          "hash": "3025378044812449119"
-        },
-        {
-          "file": "apps/auth/webpack.config.js",
-          "hash": "7337002337978147723",
-          "deps": [
-            "npm:@nx/webpack"
-          ]
-        }
-      ],
-      "chat": [
-        {
-          "file": "apps/chat/eslint.config.mjs",
-          "hash": "2624537849564014525"
-        },
-        {
-          "file": "apps/chat/project.json",
-          "hash": "6706388947788988361"
-        },
-        {
-          "file": "apps/chat/src/app/app.controller.ts",
-          "hash": "15276891910009544695",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/chat/src/app/app.module.ts",
-          "hash": "11673476679848632172",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/chat/src/app/app.service.ts",
-          "hash": "9967902337593410053",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/chat/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/chat/src/main.ts",
-          "hash": "150780270862474464",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/core"
-          ]
-        },
-        {
-          "file": "apps/chat/tsconfig.app.json",
-          "hash": "5519104792858008127"
-        },
-        {
-          "file": "apps/chat/tsconfig.json",
-          "hash": "3025378044812449119"
-        },
-        {
-          "file": "apps/chat/webpack.config.js",
-          "hash": "18157928848708482728",
-          "deps": [
-            "npm:@nx/webpack"
-          ]
-        }
-      ],
-      "tumeken-web": [
-        {
-          "file": "apps/tumeken-web/eslint.config.mjs",
-          "hash": "16756400681144203361",
-          "deps": [
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "apps/tumeken-web/project.json",
-          "hash": "14634274708821566460"
-        },
-        {
-          "file": "apps/tumeken-web/proxy.conf.json",
-          "hash": "11281046345527164812"
-        },
-        {
-          "file": "apps/tumeken-web/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "apps/tumeken-web/src/app/app.component.html",
-          "hash": "11987652264972370457"
-        },
-        {
-          "file": "apps/tumeken-web/src/app/app.component.scss",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/tumeken-web/src/app/app.component.ts",
-          "hash": "6949137264522492540",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/tumeken-web/src/app/app.config.ts",
-          "hash": "6137170128205633588",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/tumeken-web/src/app/app.routes.ts",
-          "hash": "6185150965714414910",
-          "deps": [
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/tumeken-web/src/app/nx-welcome.component.ts",
-          "hash": "1496057446707492592",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "apps/tumeken-web/src/index.html",
-          "hash": "13643714811181443398"
-        },
-        {
-          "file": "apps/tumeken-web/src/main.ts",
-          "hash": "16635586463787978962",
-          "deps": [
-            "npm:@angular/platform-browser"
-          ]
-        },
-        {
-          "file": "apps/tumeken-web/src/styles.scss",
-          "hash": "5195668842064076916"
-        },
-        {
-          "file": "apps/tumeken-web/tsconfig.app.json",
-          "hash": "8365644956319658761"
-        },
-        {
-          "file": "apps/tumeken-web/tsconfig.editor.json",
-          "hash": "1055794200401717100"
-        },
-        {
-          "file": "apps/tumeken-web/tsconfig.json",
-          "hash": "10650950471711549738"
-        }
-      ],
-      "payments": [
-        {
-          "file": "apps/payments/eslint.config.mjs",
-          "hash": "2624537849564014525"
-        },
-        {
-          "file": "apps/payments/project.json",
-          "hash": "5233023951978658412"
-        },
-        {
-          "file": "apps/payments/src/app/app.controller.ts",
-          "hash": "15276891910009544695",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/payments/src/app/app.module.ts",
-          "hash": "11673476679848632172",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/payments/src/app/app.service.ts",
-          "hash": "9967902337593410053",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/payments/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/payments/src/main.ts",
-          "hash": "150780270862474464",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/core"
-          ]
-        },
-        {
-          "file": "apps/payments/tsconfig.app.json",
-          "hash": "5519104792858008127"
-        },
-        {
-          "file": "apps/payments/tsconfig.json",
-          "hash": "3025378044812449119"
-        },
-        {
-          "file": "apps/payments/webpack.config.js",
-          "hash": "3176137878537804506",
           "deps": [
             "npm:@nx/webpack"
           ]
@@ -506,6 +245,267 @@
         {
           "file": "apps/users/webpack.config.js",
           "hash": "3237594028363166299",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        }
+      ],
+      "payments": [
+        {
+          "file": "apps/payments/eslint.config.mjs",
+          "hash": "2624537849564014525"
+        },
+        {
+          "file": "apps/payments/project.json",
+          "hash": "5233023951978658412"
+        },
+        {
+          "file": "apps/payments/src/app/app.controller.ts",
+          "hash": "15276891910009544695",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/payments/src/app/app.module.ts",
+          "hash": "11673476679848632172",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/payments/src/app/app.service.ts",
+          "hash": "9967902337593410053",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/payments/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/payments/src/main.ts",
+          "hash": "150780270862474464",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/payments/tsconfig.app.json",
+          "hash": "5519104792858008127"
+        },
+        {
+          "file": "apps/payments/tsconfig.json",
+          "hash": "3025378044812449119"
+        },
+        {
+          "file": "apps/payments/webpack.config.js",
+          "hash": "3176137878537804506",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        }
+      ],
+      "auth": [
+        {
+          "file": "apps/auth/eslint.config.mjs",
+          "hash": "2624537849564014525"
+        },
+        {
+          "file": "apps/auth/project.json",
+          "hash": "11802258599980695883"
+        },
+        {
+          "file": "apps/auth/src/app/app.controller.ts",
+          "hash": "15276891910009544695",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/auth/src/app/app.module.ts",
+          "hash": "11673476679848632172",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/auth/src/app/app.service.ts",
+          "hash": "9967902337593410053",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/auth/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/auth/src/main.ts",
+          "hash": "150780270862474464",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/auth/tsconfig.app.json",
+          "hash": "5519104792858008127"
+        },
+        {
+          "file": "apps/auth/tsconfig.json",
+          "hash": "3025378044812449119"
+        },
+        {
+          "file": "apps/auth/webpack.config.js",
+          "hash": "7337002337978147723",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        }
+      ],
+      "tumeken-web": [
+        {
+          "file": "apps/tumeken-web/eslint.config.mjs",
+          "hash": "16756400681144203361",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/tumeken-web/project.json",
+          "hash": "14634274708821566460"
+        },
+        {
+          "file": "apps/tumeken-web/proxy.conf.json",
+          "hash": "11281046345527164812"
+        },
+        {
+          "file": "apps/tumeken-web/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/tumeken-web/src/app/app.component.html",
+          "hash": "11987652264972370457"
+        },
+        {
+          "file": "apps/tumeken-web/src/app/app.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/tumeken-web/src/app/app.component.ts",
+          "hash": "6949137264522492540",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/tumeken-web/src/app/app.config.ts",
+          "hash": "6137170128205633588",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/tumeken-web/src/app/app.routes.ts",
+          "hash": "6185150965714414910",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/tumeken-web/src/app/nx-welcome.component.ts",
+          "hash": "1496057446707492592",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/tumeken-web/src/index.html",
+          "hash": "13643714811181443398"
+        },
+        {
+          "file": "apps/tumeken-web/src/main.ts",
+          "hash": "16635586463787978962",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/tumeken-web/src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/tumeken-web/tsconfig.app.json",
+          "hash": "8365644956319658761"
+        },
+        {
+          "file": "apps/tumeken-web/tsconfig.editor.json",
+          "hash": "1055794200401717100"
+        },
+        {
+          "file": "apps/tumeken-web/tsconfig.json",
+          "hash": "10650950471711549738"
+        }
+      ],
+      "chat": [
+        {
+          "file": "apps/chat/eslint.config.mjs",
+          "hash": "2624537849564014525"
+        },
+        {
+          "file": "apps/chat/project.json",
+          "hash": "6706388947788988361"
+        },
+        {
+          "file": "apps/chat/src/app/app.controller.ts",
+          "hash": "15276891910009544695",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/chat/src/app/app.module.ts",
+          "hash": "11673476679848632172",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/chat/src/app/app.service.ts",
+          "hash": "9967902337593410053",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/chat/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/chat/src/main.ts",
+          "hash": "150780270862474464",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/chat/tsconfig.app.json",
+          "hash": "5519104792858008127"
+        },
+        {
+          "file": "apps/chat/tsconfig.json",
+          "hash": "3025378044812449119"
+        },
+        {
+          "file": "apps/chat/webpack.config.js",
+          "hash": "18157928848708482728",
           "deps": [
             "npm:@nx/webpack"
           ]

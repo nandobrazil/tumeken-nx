@@ -3,7 +3,7 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "app",
-  "sourceRoot": "apps/tumeken-web/src",
+  "sourceRoot": "apps/apps/tumeken-web/src",
   "tags": [],
   "targets": {
     "build": {

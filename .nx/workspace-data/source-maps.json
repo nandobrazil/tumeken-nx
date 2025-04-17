@@ -1,2205 +1,2087 @@
 {
-  "api-gateway": {
+  "apps/api-gateway": {
     "root": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "projectType": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.build.cache": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.dependsOn": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.inputs": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.outputs": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.executor": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.cwd": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.options.args": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.command": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.build.metadata.technologies": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.technologies.0": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.description": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help.command": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help.example": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.executor": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.cwd": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.args": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.command": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.technologies": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.technologies.0": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.description": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help.command": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help.example": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build-deps": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build-deps.dependsOn": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.dependsOn": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.executor": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.options": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.options.command": [
-      "api-gateway/webpack.config.js",
+      "apps/api-gateway/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.eslint:lint": [
-      "api-gateway/eslint.config.mjs",
+      "apps/api-gateway/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.cache": [
-      "api-gateway/eslint.config.mjs",
+      "apps/api-gateway/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options": [
-      "api-gateway/eslint.config.mjs",
+      "apps/api-gateway/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.inputs": [
-      "api-gateway/eslint.config.mjs",
+      "apps/api-gateway/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.outputs": [
-      "api-gateway/eslint.config.mjs",
+      "apps/api-gateway/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata": [
-      "api-gateway/eslint.config.mjs",
+      "apps/api-gateway/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.executor": [
-      "api-gateway/eslint.config.mjs",
+      "apps/api-gateway/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options.cwd": [
-      "api-gateway/eslint.config.mjs",
+      "apps/api-gateway/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options.command": [
-      "api-gateway/eslint.config.mjs",
+      "apps/api-gateway/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.technologies": [
-      "api-gateway/eslint.config.mjs",
+      "apps/api-gateway/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.technologies.0": [
-      "api-gateway/eslint.config.mjs",
+      "apps/api-gateway/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.description": [
-      "api-gateway/eslint.config.mjs",
+      "apps/api-gateway/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help": [
-      "api-gateway/eslint.config.mjs",
+      "apps/api-gateway/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help.command": [
-      "api-gateway/eslint.config.mjs",
+      "apps/api-gateway/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help.example": [
-      "api-gateway/eslint.config.mjs",
+      "apps/api-gateway/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "name": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "$schema": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "sourceRoot": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "tags": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.development": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.development.args": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.serve": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.executor": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.defaultConfiguration": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.dependsOn": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options.buildTarget": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options.runBuildTargetDependencies": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.development": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.development.buildTarget": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.production": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.production.buildTarget": [
-      "api-gateway/project.json",
+      "apps/api-gateway/project.json",
       "nx/core/project-json"
     ]
   },
-  "auth": {
+  "apps/auth": {
     "root": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "projectType": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.build.cache": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.dependsOn": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.inputs": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.outputs": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.executor": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.cwd": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.options.args": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.command": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.build.metadata.technologies": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.technologies.0": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.description": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help.command": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help.example": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.executor": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.cwd": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.args": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.command": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.technologies": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.technologies.0": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.description": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help.command": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help.example": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build-deps": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build-deps.dependsOn": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.dependsOn": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.executor": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.options": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.options.command": [
-      "auth/webpack.config.js",
+      "apps/auth/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.eslint:lint": [
-      "auth/eslint.config.mjs",
+      "apps/auth/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.cache": [
-      "auth/eslint.config.mjs",
+      "apps/auth/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options": [
-      "auth/eslint.config.mjs",
+      "apps/auth/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.inputs": [
-      "auth/eslint.config.mjs",
+      "apps/auth/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.outputs": [
-      "auth/eslint.config.mjs",
+      "apps/auth/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata": [
-      "auth/eslint.config.mjs",
+      "apps/auth/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.executor": [
-      "auth/eslint.config.mjs",
+      "apps/auth/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options.cwd": [
-      "auth/eslint.config.mjs",
+      "apps/auth/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options.command": [
-      "auth/eslint.config.mjs",
+      "apps/auth/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.technologies": [
-      "auth/eslint.config.mjs",
+      "apps/auth/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.technologies.0": [
-      "auth/eslint.config.mjs",
+      "apps/auth/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.description": [
-      "auth/eslint.config.mjs",
+      "apps/auth/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help": [
-      "auth/eslint.config.mjs",
+      "apps/auth/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help.command": [
-      "auth/eslint.config.mjs",
+      "apps/auth/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help.example": [
-      "auth/eslint.config.mjs",
+      "apps/auth/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "name": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "$schema": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "sourceRoot": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "tags": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.development": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.development.args": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.serve": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.executor": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.defaultConfiguration": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.dependsOn": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options.buildTarget": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options.runBuildTargetDependencies": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.development": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.development.buildTarget": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.production": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.production.buildTarget": [
-      "auth/project.json",
+      "apps/auth/project.json",
       "nx/core/project-json"
     ]
   },
-  "chat": {
+  "apps/chat": {
     "root": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "projectType": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.build.cache": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.dependsOn": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.inputs": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.outputs": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.executor": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.cwd": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.options.args": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.command": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.build.metadata.technologies": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.technologies.0": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.description": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help.command": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help.example": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.executor": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.cwd": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.args": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.command": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.technologies": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.technologies.0": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.description": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help.command": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help.example": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build-deps": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build-deps.dependsOn": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.dependsOn": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.executor": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.options": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.options.command": [
-      "chat/webpack.config.js",
+      "apps/chat/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.eslint:lint": [
-      "chat/eslint.config.mjs",
+      "apps/chat/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.cache": [
-      "chat/eslint.config.mjs",
+      "apps/chat/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options": [
-      "chat/eslint.config.mjs",
+      "apps/chat/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.inputs": [
-      "chat/eslint.config.mjs",
+      "apps/chat/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.outputs": [
-      "chat/eslint.config.mjs",
+      "apps/chat/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata": [
-      "chat/eslint.config.mjs",
+      "apps/chat/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.executor": [
-      "chat/eslint.config.mjs",
+      "apps/chat/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options.cwd": [
-      "chat/eslint.config.mjs",
+      "apps/chat/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options.command": [
-      "chat/eslint.config.mjs",
+      "apps/chat/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.technologies": [
-      "chat/eslint.config.mjs",
+      "apps/chat/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.technologies.0": [
-      "chat/eslint.config.mjs",
+      "apps/chat/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.description": [
-      "chat/eslint.config.mjs",
+      "apps/chat/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help": [
-      "chat/eslint.config.mjs",
+      "apps/chat/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help.command": [
-      "chat/eslint.config.mjs",
+      "apps/chat/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help.example": [
-      "chat/eslint.config.mjs",
+      "apps/chat/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "name": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "$schema": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "sourceRoot": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "tags": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.development": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.development.args": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.serve": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.executor": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.defaultConfiguration": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.dependsOn": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options.buildTarget": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options.runBuildTargetDependencies": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.development": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.development.buildTarget": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.production": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.production.buildTarget": [
-      "chat/project.json",
+      "apps/chat/project.json",
       "nx/core/project-json"
     ]
   },
-  "listings": {
+  "apps/listings": {
     "root": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "projectType": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.build.cache": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.dependsOn": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.inputs": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.outputs": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.executor": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.cwd": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.options.args": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.command": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.build.metadata.technologies": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.technologies.0": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.description": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help.command": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help.example": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.executor": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.cwd": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.args": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.command": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.technologies": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.technologies.0": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.description": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help.command": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help.example": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build-deps": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build-deps.dependsOn": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.dependsOn": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.executor": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.options": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.options.command": [
-      "listings/webpack.config.js",
+      "apps/listings/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.eslint:lint": [
-      "listings/eslint.config.mjs",
+      "apps/listings/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.cache": [
-      "listings/eslint.config.mjs",
+      "apps/listings/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options": [
-      "listings/eslint.config.mjs",
+      "apps/listings/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.inputs": [
-      "listings/eslint.config.mjs",
+      "apps/listings/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.outputs": [
-      "listings/eslint.config.mjs",
+      "apps/listings/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata": [
-      "listings/eslint.config.mjs",
+      "apps/listings/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.executor": [
-      "listings/eslint.config.mjs",
+      "apps/listings/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options.cwd": [
-      "listings/eslint.config.mjs",
+      "apps/listings/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options.command": [
-      "listings/eslint.config.mjs",
+      "apps/listings/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.technologies": [
-      "listings/eslint.config.mjs",
+      "apps/listings/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.technologies.0": [
-      "listings/eslint.config.mjs",
+      "apps/listings/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.description": [
-      "listings/eslint.config.mjs",
+      "apps/listings/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help": [
-      "listings/eslint.config.mjs",
+      "apps/listings/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help.command": [
-      "listings/eslint.config.mjs",
+      "apps/listings/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help.example": [
-      "listings/eslint.config.mjs",
+      "apps/listings/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "name": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "$schema": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "sourceRoot": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "tags": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.development": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.development.args": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.serve": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.executor": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.defaultConfiguration": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.dependsOn": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options.buildTarget": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options.runBuildTargetDependencies": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.development": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.development.buildTarget": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.production": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.production.buildTarget": [
-      "listings/project.json",
+      "apps/listings/project.json",
       "nx/core/project-json"
     ]
   },
-  "notification": {
+  "apps/notification": {
     "root": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "projectType": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.build.cache": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.dependsOn": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.inputs": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.outputs": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.executor": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.cwd": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.options.args": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.command": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.build.metadata.technologies": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.technologies.0": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.description": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help.command": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help.example": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.executor": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.cwd": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.args": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.command": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.technologies": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.technologies.0": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.description": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help.command": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help.example": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build-deps": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build-deps.dependsOn": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.dependsOn": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.executor": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.options": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.options.command": [
-      "notification/webpack.config.js",
+      "apps/notification/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.eslint:lint": [
-      "notification/eslint.config.mjs",
+      "apps/notification/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.cache": [
-      "notification/eslint.config.mjs",
+      "apps/notification/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options": [
-      "notification/eslint.config.mjs",
+      "apps/notification/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.inputs": [
-      "notification/eslint.config.mjs",
+      "apps/notification/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.outputs": [
-      "notification/eslint.config.mjs",
+      "apps/notification/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata": [
-      "notification/eslint.config.mjs",
+      "apps/notification/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.executor": [
-      "notification/eslint.config.mjs",
+      "apps/notification/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options.cwd": [
-      "notification/eslint.config.mjs",
+      "apps/notification/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options.command": [
-      "notification/eslint.config.mjs",
+      "apps/notification/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.technologies": [
-      "notification/eslint.config.mjs",
+      "apps/notification/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.technologies.0": [
-      "notification/eslint.config.mjs",
+      "apps/notification/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.description": [
-      "notification/eslint.config.mjs",
+      "apps/notification/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help": [
-      "notification/eslint.config.mjs",
+      "apps/notification/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help.command": [
-      "notification/eslint.config.mjs",
+      "apps/notification/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help.example": [
-      "notification/eslint.config.mjs",
+      "apps/notification/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "name": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "$schema": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "sourceRoot": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "tags": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.development": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.development.args": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.serve": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.executor": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.defaultConfiguration": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.dependsOn": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options.buildTarget": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options.runBuildTargetDependencies": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.development": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.development.buildTarget": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.production": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.production.buildTarget": [
-      "notification/project.json",
+      "apps/notification/project.json",
       "nx/core/project-json"
     ]
   },
-  "payments": {
+  "apps/payments": {
     "root": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "projectType": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.build.cache": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.dependsOn": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.inputs": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.outputs": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.executor": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.cwd": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.options.args": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.command": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.build.metadata.technologies": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.technologies.0": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.description": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help.command": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help.example": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.executor": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.cwd": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.args": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.command": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.technologies": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.technologies.0": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.description": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help.command": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help.example": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build-deps": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build-deps.dependsOn": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.dependsOn": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.executor": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.options": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.options.command": [
-      "payments/webpack.config.js",
+      "apps/payments/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.eslint:lint": [
-      "payments/eslint.config.mjs",
+      "apps/payments/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.cache": [
-      "payments/eslint.config.mjs",
+      "apps/payments/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options": [
-      "payments/eslint.config.mjs",
+      "apps/payments/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.inputs": [
-      "payments/eslint.config.mjs",
+      "apps/payments/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.outputs": [
-      "payments/eslint.config.mjs",
+      "apps/payments/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata": [
-      "payments/eslint.config.mjs",
+      "apps/payments/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.executor": [
-      "payments/eslint.config.mjs",
+      "apps/payments/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options.cwd": [
-      "payments/eslint.config.mjs",
+      "apps/payments/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options.command": [
-      "payments/eslint.config.mjs",
+      "apps/payments/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.technologies": [
-      "payments/eslint.config.mjs",
+      "apps/payments/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.technologies.0": [
-      "payments/eslint.config.mjs",
+      "apps/payments/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.description": [
-      "payments/eslint.config.mjs",
+      "apps/payments/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help": [
-      "payments/eslint.config.mjs",
+      "apps/payments/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help.command": [
-      "payments/eslint.config.mjs",
+      "apps/payments/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help.example": [
-      "payments/eslint.config.mjs",
+      "apps/payments/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "name": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "$schema": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "sourceRoot": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "tags": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.development": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.development.args": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.serve": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.executor": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.defaultConfiguration": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.dependsOn": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options.buildTarget": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options.runBuildTargetDependencies": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.development": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.development.buildTarget": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.production": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.production.buildTarget": [
-      "payments/project.json",
+      "apps/payments/project.json",
       "nx/core/project-json"
     ]
   },
-  "users": {
+  "apps/users": {
     "root": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "projectType": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.build.cache": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.dependsOn": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.inputs": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.outputs": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.executor": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.cwd": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.options.args": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.command": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.build.metadata.technologies": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.technologies.0": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.description": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help.command": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build.metadata.help.example": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.executor": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.cwd": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.args": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.options.command": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.technologies": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.technologies.0": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.description": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help.command": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.preview.metadata.help.example": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build-deps": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.build-deps.dependsOn": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.dependsOn": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.executor": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.options": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.watch-deps.options.command": [
-      "users/webpack.config.js",
+      "apps/users/webpack.config.js",
       "@nx/webpack/plugin"
     ],
     "targets.eslint:lint": [
-      "users/eslint.config.mjs",
+      "apps/users/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.cache": [
-      "users/eslint.config.mjs",
+      "apps/users/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options": [
-      "users/eslint.config.mjs",
+      "apps/users/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.inputs": [
-      "users/eslint.config.mjs",
+      "apps/users/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.outputs": [
-      "users/eslint.config.mjs",
+      "apps/users/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata": [
-      "users/eslint.config.mjs",
+      "apps/users/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.executor": [
-      "users/eslint.config.mjs",
+      "apps/users/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options.cwd": [
-      "users/eslint.config.mjs",
+      "apps/users/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.options.command": [
-      "users/eslint.config.mjs",
+      "apps/users/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.technologies": [
-      "users/eslint.config.mjs",
+      "apps/users/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.technologies.0": [
-      "users/eslint.config.mjs",
+      "apps/users/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.description": [
-      "users/eslint.config.mjs",
+      "apps/users/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help": [
-      "users/eslint.config.mjs",
+      "apps/users/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help.command": [
-      "users/eslint.config.mjs",
+      "apps/users/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "targets.eslint:lint.metadata.help.example": [
-      "users/eslint.config.mjs",
+      "apps/users/eslint.config.mjs",
       "@nx/eslint/plugin"
     ],
     "name": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "$schema": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "sourceRoot": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "tags": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.development": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.development.args": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.serve": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.executor": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.defaultConfiguration": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.dependsOn": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options.buildTarget": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.options.runBuildTargetDependencies": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.development": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.development.buildTarget": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.production": [
-      "users/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.production.buildTarget": [
-      "users/project.json",
-      "nx/core/project-json"
-    ]
-  },
-  "api-gateway-e2e": {
-    "root": [
-      "api-gateway-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
-      "api-gateway-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint": [
-      "api-gateway-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.cache": [
-      "api-gateway-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options": [
-      "api-gateway-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.inputs": [
-      "api-gateway-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.outputs": [
-      "api-gateway-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata": [
-      "api-gateway-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.executor": [
-      "api-gateway-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options.cwd": [
-      "api-gateway-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options.command": [
-      "api-gateway-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.technologies": [
-      "api-gateway-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.technologies.0": [
-      "api-gateway-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.description": [
-      "api-gateway-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help": [
-      "api-gateway-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help.command": [
-      "api-gateway-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help.example": [
-      "api-gateway-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "name": [
-      "api-gateway-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "$schema": [
-      "api-gateway-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "projectType": [
-      "api-gateway-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies": [
-      "api-gateway-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies.api-gateway": [
-      "api-gateway-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e": [
-      "api-gateway-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.executor": [
-      "api-gateway-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.outputs": [
-      "api-gateway-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options": [
-      "api-gateway-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.dependsOn": [
-      "api-gateway-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options.jestConfig": [
-      "api-gateway-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options.passWithNoTests": [
-      "api-gateway-e2e/project.json",
+      "apps/users/project.json",
       "nx/core/project-json"
     ]
   },
@@ -2499,714 +2381,6 @@
     "targets.lint.parallelism": [
       "nx.json",
       "nx/target-defaults"
-    ]
-  },
-  "auth-e2e": {
-    "root": [
-      "auth-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
-      "auth-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint": [
-      "auth-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.cache": [
-      "auth-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options": [
-      "auth-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.inputs": [
-      "auth-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.outputs": [
-      "auth-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata": [
-      "auth-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.executor": [
-      "auth-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options.cwd": [
-      "auth-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options.command": [
-      "auth-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.technologies": [
-      "auth-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.technologies.0": [
-      "auth-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.description": [
-      "auth-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help": [
-      "auth-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help.command": [
-      "auth-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help.example": [
-      "auth-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "name": [
-      "auth-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "$schema": [
-      "auth-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "projectType": [
-      "auth-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies": [
-      "auth-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies.auth": [
-      "auth-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e": [
-      "auth-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.executor": [
-      "auth-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.outputs": [
-      "auth-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options": [
-      "auth-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.dependsOn": [
-      "auth-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options.jestConfig": [
-      "auth-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options.passWithNoTests": [
-      "auth-e2e/project.json",
-      "nx/core/project-json"
-    ]
-  },
-  "chat-e2e": {
-    "root": [
-      "chat-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
-      "chat-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint": [
-      "chat-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.cache": [
-      "chat-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options": [
-      "chat-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.inputs": [
-      "chat-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.outputs": [
-      "chat-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata": [
-      "chat-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.executor": [
-      "chat-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options.cwd": [
-      "chat-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options.command": [
-      "chat-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.technologies": [
-      "chat-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.technologies.0": [
-      "chat-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.description": [
-      "chat-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help": [
-      "chat-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help.command": [
-      "chat-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help.example": [
-      "chat-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "name": [
-      "chat-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "$schema": [
-      "chat-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "projectType": [
-      "chat-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies": [
-      "chat-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies.chat": [
-      "chat-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e": [
-      "chat-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.executor": [
-      "chat-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.outputs": [
-      "chat-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options": [
-      "chat-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.dependsOn": [
-      "chat-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options.jestConfig": [
-      "chat-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options.passWithNoTests": [
-      "chat-e2e/project.json",
-      "nx/core/project-json"
-    ]
-  },
-  "listings-e2e": {
-    "root": [
-      "listings-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
-      "listings-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint": [
-      "listings-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.cache": [
-      "listings-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options": [
-      "listings-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.inputs": [
-      "listings-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.outputs": [
-      "listings-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata": [
-      "listings-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.executor": [
-      "listings-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options.cwd": [
-      "listings-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options.command": [
-      "listings-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.technologies": [
-      "listings-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.technologies.0": [
-      "listings-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.description": [
-      "listings-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help": [
-      "listings-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help.command": [
-      "listings-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help.example": [
-      "listings-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "name": [
-      "listings-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "$schema": [
-      "listings-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "projectType": [
-      "listings-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies": [
-      "listings-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies.listings": [
-      "listings-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e": [
-      "listings-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.executor": [
-      "listings-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.outputs": [
-      "listings-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options": [
-      "listings-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.dependsOn": [
-      "listings-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options.jestConfig": [
-      "listings-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options.passWithNoTests": [
-      "listings-e2e/project.json",
-      "nx/core/project-json"
-    ]
-  },
-  "payments-e2e": {
-    "root": [
-      "payments-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
-      "payments-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint": [
-      "payments-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.cache": [
-      "payments-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options": [
-      "payments-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.inputs": [
-      "payments-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.outputs": [
-      "payments-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata": [
-      "payments-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.executor": [
-      "payments-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options.cwd": [
-      "payments-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options.command": [
-      "payments-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.technologies": [
-      "payments-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.technologies.0": [
-      "payments-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.description": [
-      "payments-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help": [
-      "payments-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help.command": [
-      "payments-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help.example": [
-      "payments-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "name": [
-      "payments-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "$schema": [
-      "payments-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "projectType": [
-      "payments-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies": [
-      "payments-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies.payments": [
-      "payments-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e": [
-      "payments-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.executor": [
-      "payments-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.outputs": [
-      "payments-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options": [
-      "payments-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.dependsOn": [
-      "payments-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options.jestConfig": [
-      "payments-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options.passWithNoTests": [
-      "payments-e2e/project.json",
-      "nx/core/project-json"
-    ]
-  },
-  "users-e2e": {
-    "root": [
-      "users-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
-      "users-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint": [
-      "users-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.cache": [
-      "users-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options": [
-      "users-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.inputs": [
-      "users-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.outputs": [
-      "users-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata": [
-      "users-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.executor": [
-      "users-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options.cwd": [
-      "users-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options.command": [
-      "users-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.technologies": [
-      "users-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.technologies.0": [
-      "users-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.description": [
-      "users-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help": [
-      "users-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help.command": [
-      "users-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help.example": [
-      "users-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "name": [
-      "users-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "$schema": [
-      "users-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "projectType": [
-      "users-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies": [
-      "users-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies.users": [
-      "users-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e": [
-      "users-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.executor": [
-      "users-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.outputs": [
-      "users-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options": [
-      "users-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.dependsOn": [
-      "users-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options.jestConfig": [
-      "users-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options.passWithNoTests": [
-      "users-e2e/project.json",
-      "nx/core/project-json"
-    ]
-  },
-  "notification-e2e": {
-    "root": [
-      "notification-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
-      "notification-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint": [
-      "notification-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.cache": [
-      "notification-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options": [
-      "notification-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.inputs": [
-      "notification-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.outputs": [
-      "notification-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata": [
-      "notification-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.executor": [
-      "notification-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options.cwd": [
-      "notification-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.options.command": [
-      "notification-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.technologies": [
-      "notification-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.technologies.0": [
-      "notification-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.description": [
-      "notification-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help": [
-      "notification-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help.command": [
-      "notification-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "targets.eslint:lint.metadata.help.example": [
-      "notification-e2e/eslint.config.mjs",
-      "@nx/eslint/plugin"
-    ],
-    "name": [
-      "notification-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "$schema": [
-      "notification-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "projectType": [
-      "notification-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies": [
-      "notification-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies.notification": [
-      "notification-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e": [
-      "notification-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.executor": [
-      "notification-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.outputs": [
-      "notification-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options": [
-      "notification-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.dependsOn": [
-      "notification-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options.jestConfig": [
-      "notification-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options.passWithNoTests": [
-      "notification-e2e/project.json",
-      "nx/core/project-json"
     ]
   }
 }

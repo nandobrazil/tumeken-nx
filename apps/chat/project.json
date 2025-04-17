@@ -1,7 +1,7 @@
 {
   "name": "chat",
-  "$schema": "../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "chat/src",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/chat/src",
   "projectType": "application",
   "tags": [],
   "targets": {

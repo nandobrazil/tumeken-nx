@@ -1,7 +1,7 @@
 {
   "name": "auth",
-  "$schema": "../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "auth/src",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/auth/src",
   "projectType": "application",
   "tags": [],
   "targets": {

@@ -1,9 +1,8 @@
 {
   "name": "notification",
-  "$schema": "../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "notification/src",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/notification/src",
   "projectType": "application",
-  "tags": [],
   "targets": {
     "build": {
       "executor": "nx:run-commands",
@@ -34,5 +33,6 @@
         }
       }
     }
-  }
+  },
+  "tags": []
 }

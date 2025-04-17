@@ -1,7 +1,7 @@
 {
   "name": "listings",
-  "$schema": "../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "listings/src",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/listings/src",
   "projectType": "application",
   "tags": [],
   "targets": {
